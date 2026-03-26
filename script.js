@@ -1,10 +1,5 @@
 let todo = JSON.parse(localStorage.getItem("todo")) || []; //string --> array
 
-// const todo = [
-//   { text: "งาน", meta: { done: false } }, // index 0
-//   { text: "เล่นเกม", meta: { done: true } } // index 1
-// ];
-
 const todoInput = document.getElementById("todoInput");
 const todoList = document.getElementById("todoList");
 const todoCount = document.getElementById("todoCount");
